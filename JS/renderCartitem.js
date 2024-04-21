@@ -27,7 +27,7 @@ function renderCart(productCart){
             let btnAddCart = document.createElement('div')
             btnAddCart.setAttribute("class","btn_cart")
             btnAddCart.innerHTML = `
-                <p class="sum_price">Total: $</p>
+                <p class="sum_price">Total: 0$</p>
                 <a href="myorder.html"><button id="btn_order">SEND ORDER</button></a>`
             cartList.appendChild(btnAddCart)
         }
