@@ -78,7 +78,7 @@
 .product .product_list_item .product-description .product_text{
     font-size: 16px;
     overflow: hidden;
-    height: 50px;
+    height: 60px;
     text-overflow: ellipsis;
 }
 .product .product_list_item .product-description .product_price{
