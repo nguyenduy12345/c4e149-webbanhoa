@@ -124,6 +124,10 @@
 }
 
 @media (max-width: 768px){
+    .row>*{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
     .product .product_filter{
         display: flex;
         text-align: center;

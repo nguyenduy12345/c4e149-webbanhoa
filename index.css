@@ -1062,10 +1062,11 @@ header a{
     .header_navbar .item_cart:hover> .cart_list{
         display: block;
     }
-    .header_navbar .item_cart .cart_list #close_cart_list{
+    .header_navbar .item_cart #close_cart_list{
         position: absolute;
         right: 3px;
         font-size: 20px;
+        z-index: 999999;
     }
     .header_navbar .item_cart .cart_list_item:first-child{
         font-weight: 600;

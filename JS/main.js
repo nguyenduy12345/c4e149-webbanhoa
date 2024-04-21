@@ -64,11 +64,14 @@ function showBoxCart(){
     boxCart.style.display = "block"
 }
 //CART LIST
-let cartList = document.querySelector('.cart_list')
-let iconCloseCart = document.querySelector('i#close_cart_list')
+let cartList = document.querySelector('#cart_list_col')
+let iconCloseCart = document.querySelector('#close_cart_list')
 let showCart = document.querySelector('#shopping_cart')
 showCart.onclick = () =>{
     cartList.style.display = "block"
+}
+function iconCloseCartCol(){
+    cartList.style.display = "none"
 }
 // SLIDESHOW
 let slideList = document.querySelector('#slide .slide_list')
