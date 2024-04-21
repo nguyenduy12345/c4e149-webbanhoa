@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../../img/iconWeb/1540961749847_hoa_hongg.png" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="register.css">
-    <link rel="stylesheet" type="text/css" href="../../index.css">
+    <link rel="icon" href="img/iconWeb/1540961749847_hoa_hongg.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="pages/registerPage/register.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -27,7 +27,7 @@
             <!-- NAVBAR COLUMN -->
             <ul class="nav_item_column">
                 <p id="close_navbar"><i class="fa-solid fa-xmark"></i></p>
-                <li class="navbar_list_item"><a href="../flowerPage/flower.html">FLOWERS</a>
+                <li class="navbar_list_item"><a href="flower.html">FLOWERS</a>
                     <ul class="navbar_list_flower">
                         <li><a href="" class="fw-light">roses</a></li>
                         <li><a href="" class="fw-light">ranunculus</a></li>
@@ -37,7 +37,7 @@
                         <li><a href="" class="fw-light">tulips</a></li>
                     </ul>
                 </li>
-                <li class="navbar_list_item"><a href="../cakePage/cake.html">CAKES & SWEETS</a>
+                <li class="navbar_list_item"><a href="cake.html">CAKES & SWEETS</a>
                     <ul class="navbar_list_cake">
                         <li><a href="" class="fw-light">truffles</a></li>
                         <li><a href="" class="fw-light">cookies</a></li>
@@ -45,7 +45,7 @@
                         <li><a href="" class="fw-light">cream cakes</a></li>
                     </ul>                   
                 </li>
-                <li class="navbar_list_item"><a href="../accessoryPage/accessory.html">ACCESSORIES</a>
+                <li class="navbar_list_item"><a href="accessory.html">ACCESSORIES</a>
                     <ul class="navbar_list_accessory">
                         <li><a href="" class="fw-light">gift wrap</a></li>
                         <li><a href="" class="fw-light">gift box</a></li>
@@ -62,18 +62,19 @@
                     </ul> 
                 </li>
                 <li class="navbar_list_item"><a href="#about">ABOUT ME</a></li>
-                <li class="item_searching">Tìm kiếm:<input type="text" placeholder="Searching..."></li>
+                <!-- BOX SEARCH -->
+                <li class="item_searching box_search">Tìm kiếm:<input id="searching" type="text" placeholder="Searching..."></li>
                 <li class="item_user">Account
                     <ul>
                         <li class="fw-light" onclick="showLoginForm()">Login</li>
-                        <li><a href="../registerPage/register.html" class="fw-light">Register</a></li>
+                        <li><a href="register.html" class="fw-light">Register</a></li>
                     </ul> 
                 </li>
                 <li class="item_cart" id="shopping_cart">Cart item
                     <p id="cart_length" class="cart_length">0</p>
                     <!-- CART_ITEM -->
+                    <!-- <i class="fa-solid fa-xmark" id="close_cart_list"></i> -->
                     <div class="cart_list">
-                        <!-- <i class="fa-solid fa-xmark" id="close_cart"></i> -->
                         <ul class="cart_list_item">
                             <li>Name</li>
                             <li>Image</li>
@@ -90,7 +91,7 @@
 
             <!-- NAVBAR MENU -->
             <div class="navbar_item">
-                <div class="nav_logo"><a href="../../index.html">Floral Oasis</a></div>
+                <div class="nav_logo"><a href="index.html">Floral Oasis</a></div>
                 <ul class="nav_item">
                     <li class="item_searching" onclick="showBoxSearching()">
                         <i class="fa-solid fa-magnifying-glass"></i>
@@ -100,7 +101,7 @@
                             <ul class="user">
                                 <i class="fa-solid fa-caret-up"></i>
                                 <li class="fw-light" onclick="showLoginForm()">Login</li>
-                                <li><a href="../registerPage/register.html" class="fw-light">Register</a></li>
+                                <li><a href="register.html" class="fw-light">Register</a></li>
                             </ul>
                         </div>
                     </li>
@@ -112,7 +113,7 @@
             </div>
             <div class="navbar_list">
                 <ul>
-                    <li class="navbar_list_item"><a href="../flowerPage/flower.html">FLOWERS</a>
+                    <li class="navbar_list_item"><a href="flower.html">FLOWERS</a>
                         <ul class="navbar_list_flower">
                             <li><a href="">roses</a></li>
                             <li><a href="">ranunculus</a></li>
@@ -123,7 +124,7 @@
                         </ul>
                        
                     </li>
-                    <li class="navbar_list_item"><a href="../cakePage/cake.html">CAKES & SWEETS</a>
+                    <li class="navbar_list_item"><a href="cake.html">CAKES & SWEETS</a>
                         <ul class="navbar_list_cake">
                             <li><a href="">truffles</a></li>
                             <li><a href="">cookies</a></li>
@@ -132,7 +133,7 @@
                         </ul>
                         
                     </li>
-                    <li class="navbar_list_item"><a href="../accessoryPage/accessory.html">ACCESSORIES</a>
+                    <li class="navbar_list_item"><a href="accessory.html">ACCESSORIES</a>
                         <ul class="navbar_list_accessory">
                             <li><a href="">gift wrap</a></li>
                             <li><a href="">gift box</a></li>
@@ -152,7 +153,8 @@
                     <li class="navbar_list_item"><a href="#about">ABOUT ME</a></li>
                     <div class="box_white"></div>  
                 </ul>
-                <div class="box_searching">
+                <!-- BOX SEARCH -->
+                <div class="box_searching box_search">
                     <input id="searching" type="text" placeholder="Searching">
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <p id="close_searching"><i class="fa-solid fa-xmark" onclick="closeBoxSearching()"></i></p>
@@ -198,7 +200,7 @@
     <!-- REGISTER FORM -->
     <div id="form_register">
         <div class="form_register_banner">
-            <img src="imgregister.webp" alt="">
+            <img src="pages/registerPage/imgregister.webp" alt="">
             <div class="register_dr">
                 <h4>welcome to floral oasis</h4>
             <p>Floral oasis where you can choose flowers, cakes, and meaningful gifts for your loved ones and friends</p>
@@ -264,8 +266,8 @@
      <!-- FOOTER END -->
 
 
-    <script src="../../JS/main.js"></script>
-    <script type="module" src="../../JS/register.js"></script>
-    <script type="module" src="../../JS/login.js"></script>
+    <script src="JS/main.js"></script>
+    <script type="module" src="JS/register.js"></script>
+    <script type="module" src="JS/login.js"></script>
 </body>
 </html>
