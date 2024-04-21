@@ -73,7 +73,7 @@ function renderOtherProduct(){
     let listPosts = document.querySelectorAll('.product_list_item') 
         listPosts.forEach(listPost =>{
     listPost.onclick = () =>{
-        window.location.href = `../showThatProduct/showproduct.html?productid=${listPost.id}`
+        window.location.href = `showproduct.html?productid=${listPost.id}`
     }
 })
 }

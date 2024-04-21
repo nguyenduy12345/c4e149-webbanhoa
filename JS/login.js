@@ -25,7 +25,7 @@ export function login(){
                 itemCart.style.display = "block";
             }
             boxLogin.style.display = "none";
-            window.location.href = "../../index.html"
+            window.location.href = "index.html"
         }else{
             message.innerText = "LOGIN FAILED! PLEASE RE-ENTER"
         } 

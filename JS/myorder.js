@@ -44,7 +44,7 @@ function renderOtherProduct(){
     if(listPosts){
         listPosts.forEach(listPost =>{
             listPost.onclick = () =>{
-                window.location.href = `../showThatProduct/showproduct.html?productid=${listPost.id}`
+                window.location.href = `showproduct.html?productid=${listPost.id}`
             }
         })
     }
