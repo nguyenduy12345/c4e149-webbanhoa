@@ -35,6 +35,7 @@ let loginForm = document.querySelector('.box_login')
 let btnCloseLogin = document.getElementById('close_form_login')
 function showLoginForm(){
     loginForm.style.display= "block";
+    navItemColumn.style.display = "none";
 }
 if(btnCloseLogin){
     btnCloseLogin.onclick = () => {
