@@ -183,5 +183,6 @@ ul{
     }
     .product_attribute{
         margin-top: 20px !important;
+        padding-left: 10px !important
     }
 }
