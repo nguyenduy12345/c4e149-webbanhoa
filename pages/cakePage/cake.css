@@ -122,11 +122,33 @@
         /* margin: auto; */
     }
 }
-
-@media (max-width: 768px){
+@media (max-width: 568px){
     .row>*{
-        padding-left: 0 !important;
+        padding: 0 !important;
+    }
+    .product_list{
         padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .product_list h3{
+        margin-top: 20px;
+    }
+    .row{
+        max-width: 100vw !important;
+        margin: auto;
+    }
+    .container{
+        padding: 0 !important;
+    }
+    .product-description{
+        border: none !important;
+        border-bottom: 1px solid #FFC0CB !important;
+    }
+}
+@media (max-width: 768px){
+    .row{
+        max-width: 90vw;
+        margin: auto !important;
     }
     .product .product_filter{
         display: flex;

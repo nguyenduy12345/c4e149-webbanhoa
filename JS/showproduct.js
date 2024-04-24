@@ -12,7 +12,7 @@ products.find(product =>{
     let categoryProduct = document.createElement('div')
     if(product.id == param){
         categoryProduct.innerHTML = `
-        <div class="product_zone row ${product.id}">
+        <div class="product_zone row mt-3" id="${product.id}">
             <div class="product_img col-sm-12 col-md-5">
                 <div>
                 <div class="big_img" id="big_img">

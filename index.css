@@ -5,6 +5,9 @@
 *{
     margin: 0; padding: 0; box-sizing: border-box;
     font-family: "Josefin Sans", sans-serif;
+}
+img{
+    cursor: pointer;
 }   
 body{
     overflow: hidden;
@@ -848,7 +851,7 @@ header a{
     .header_navbar .navbar_icon{
         font-size: 20px;
         top: 30px;
-        left: 6px;
+        left: 12px;
         cursor: pointer;
     }
     .header_navbar ul.cart_list_item li{

@@ -14,7 +14,7 @@ let renderProduct = (list) =>{
     listPost.classList.add('row')
     for(let i = 0; i < list.length; i++){
     listPost.innerHTML += `
-    <div id=${list[i].id} class="product_list_item col-sm-12 col-md-6 col-lg-4 pe-2">
+    <div id=${list[i].id} class="product_list_item col-sm-12 col-md-6 col-lg-4 pe-md-2">
     <div class="product_img">
         <img src="${list[i].src}">
         <div class="product_cart text-uppercase"><i class="fa-solid fa-eye me-2"></i>View product</div>   
