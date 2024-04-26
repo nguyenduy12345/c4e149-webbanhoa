@@ -52,7 +52,3 @@ btnRegister.addEventListener('click', (event) => {
     event.preventDefault()
     registerForm()
 })
-
-
-
-

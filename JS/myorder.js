@@ -68,6 +68,13 @@ if(inputs){
         })
     }
 }
+// Validate
+let regexPhone = /(03|05|07|08|09|01[2|6|8|9])+([0-9]{8})\b/
+let numberPhone = formInfoUser.querySelector('#number_phone')
+let errPhone = formInfoUser.querySelector('.err_number_phone')
+numberPhone.addEventListener('input', (e) =>{
+    !e.target.value.trim().match(regexPhone) ? errPhone.innerText = "Please, enter your numberphone!" : errPhone.innerText = ""
+})
 // CHECK OUT
 let btnCheckOut = document.querySelector('.check_out')
 let errMessage = document.querySelectorAll('.message')
