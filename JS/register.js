@@ -47,6 +47,18 @@ function registerForm(){
         // status = false;
     }   
 }
+let inputs = document.querySelectorAll('input')
+for(let input of inputs){
+    input.addEventListener('input', (e) =>{
+        let parentInput = input.parentElement
+        let message = parentInput.querySelector('p')
+        if(e.target.value.trim() != ""){
+            message.innerText = ""
+        }else{
+            message.innerText = "That field not emty. Please enter your infomation!"
+        }
+    })
+}
 let btnRegister = document.querySelector('button#btn_register')
 btnRegister.addEventListener('click', (event) => {
     event.preventDefault()

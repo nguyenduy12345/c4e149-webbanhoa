@@ -274,7 +274,7 @@ bigImg.onmousemove = (event) =>{
     let translateY = -(positionMouseY - 50) / 2.5
     zoomImg.style.transform = `scale(1.8) translate(${translateX}% , ${translateY}%)`
 }
-bigImg.addEventListener('mouseout', () =>{
-    zoomImg.style.opacity = 0
-})
+    bigImg.addEventListener('mouseout', () =>{
+        zoomImg.style.opacity = 0
+    })
 }
