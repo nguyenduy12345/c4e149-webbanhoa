@@ -165,6 +165,9 @@
         font-size: 18px;
         font-weight: 600;
     }
+    .product .product_filter #filter_all p{
+        margin-bottom: 0 !important;
+    }
     .product .product_filter .filter_type{
         position: relative;
     }
