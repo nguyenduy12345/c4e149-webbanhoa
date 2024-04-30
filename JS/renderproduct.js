@@ -123,6 +123,7 @@ let titleProduct = document.querySelector('#title_products')
 //FILTER ALL 
 function filterAll(){
         titleProduct.innerText = "FLOWERS"
+        currentPage = 1
         let currentListPost = productList.querySelectorAll('.product_list_item')
         for(let postItem of currentListPost){
             postItem.remove(postItem)
@@ -189,6 +190,7 @@ function filterAll(){
 let typeRose = document.querySelector('#type_rose')
     typeRose.onclick = () =>{
         titleProduct.innerText = "roses"
+        currentPage = 1
         let currentListPost = productList.querySelectorAll('.product_list_item')
         for(let postItem of currentListPost){
             postItem.remove(postItem)
@@ -262,6 +264,7 @@ let typeRose = document.querySelector('#type_rose')
 let typeTulip = document.querySelector('#type_tulip')
     typeTulip.onclick = () =>{
         titleProduct.innerText = "tulips"
+        currentPage = 1
         let currentListPost = productList.querySelectorAll('.product_list_item')
         for(let postItem of currentListPost){
             postItem.remove(postItem)
