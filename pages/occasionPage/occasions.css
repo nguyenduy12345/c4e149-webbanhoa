@@ -1,0 +1,154 @@
+
+/* OCCASIONS */
+.container{
+    width: 100%;
+    max-width: max-content;
+    margin: 0;
+    padding: 0 !important;
+}
+.banner{
+    width: 1600px;
+    max-width: 100vw;
+    margin: auto;
+}
+.occasions-banner {
+    width: 1600px;
+    max-width: 100vw;
+    margin: auto;
+}
+
+.occasions-description {
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 25px 40px 25px 40px;
+    margin-bottom: 0;
+    color:#4F5B66;
+}
+
+#danh-sach-san-pham {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.items {
+    width: 28%;
+    text-align: center; 
+    color:#1F2428;
+    margin-bottom: 50px;
+} 
+
+.items img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.ten-san-pham {
+    font-size: 16px;
+    padding: 15px 5px;
+    font-weight: bold;
+    margin: 0;
+    height: 35px;
+}
+.mo-ta {
+    font-size: 14px;
+    padding: 10px 20px;
+    margin: 0;
+    height: 80px;
+}
+.btn {
+    margin-top: 15px;
+    font-size: 16px;
+    border: none;
+    background-color:  #1F2428 !important;
+    color: white !important;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.btn:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.service {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.sv-des {
+    margin-left: 30px;
+}
+
+.sv-des h1 {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.sv-des p {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.service img {
+    width: 44%;
+    cursor: pointer;
+}
+
+.contact-btn {
+    font-size: 18px;
+    padding: 16px 60px;
+}
+
+@media (max-width: 568px) {
+    .items {
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .items img{
+        height: 500px;
+    }
+    .mo-ta{
+        height: 50px;
+    }
+    .service img {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .service {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sv-des {
+        text-align: center;
+        margin: 0;
+        padding: 10px 10px;
+    }
+    .service p{
+        padding: 0 10px;
+    }
+}
+
+@media (min-width: 568px){
+    .items{
+        width: 49% !important;
+    }
+    #danh-sach-san-pham{
+        padding: 0 15px;
+    }
+    .service{
+        padding: 0 15px;
+    }
+}
+@media (min-width: 992px){
+    .items{
+        width: 32% !important;
+    }
+}
+
+
+
+
+
+
