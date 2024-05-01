@@ -59,18 +59,19 @@
 }
 .btn {
     margin-top: 15px;
+    padding: 0;
+    text-align: center;
     font-size: 16px;
     border: none;
     background-color:  #1F2428 !important;
     color: white !important;
-    border-radius: 5px;
+    border-radius: 10px !important;
     cursor: pointer;
     display: flex;
     align-items: center;
 }
 .btn:hover {
     opacity: 0.8;
-    transition: 0.3s;
 }
 .service {
     display: flex;
@@ -98,9 +99,15 @@
 
 .contact-btn {
     font-size: 18px;
-    padding: 16px 60px;
+    margin-top: 0;
+    /* padding: 16px 60px; */
 }
 
+@media (max-width: 400px){
+    .items img{
+        height: 400px !important;
+    }
+}
 @media (max-width: 568px) {
     .items {
         width: 100% !important;
@@ -110,7 +117,7 @@
         height: 500px;
     }
     .mo-ta{
-        height: 50px;
+        height: 70px;
     }
     .service img {
         width: 100%;
