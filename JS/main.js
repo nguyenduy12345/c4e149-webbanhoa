@@ -25,8 +25,7 @@ window.onscroll = () =>{
         header.style.position = "fixed"
         header.style.top = "0"
     }else{
-        header.style.position = "relative"
-        
+        header.style.position = "relative"  
     }
 }
 
