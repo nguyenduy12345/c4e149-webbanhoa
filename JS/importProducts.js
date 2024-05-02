@@ -9,6 +9,7 @@ class Products{
         this.price = price
     }
 }
+
 //FLOWERS
 const fl1 = new Products("fl_1", "baby blue rose", "Let beautiful flowers express your love for that person!", "img/flower/roses/baby_blue_rose.JPG", "roses", 19)
 const fl2 = new Products("fl_2", "blush rose", "Let beautiful flowers express your love for that person!", "img/flower/roses/blush_rose.webp", "roses", 21)
