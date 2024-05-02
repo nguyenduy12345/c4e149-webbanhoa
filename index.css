@@ -869,7 +869,7 @@ header a{
     }
     
     .about .about_list_item img{
-        height: 210px;
+        height: 350px !important;
     }
 
 }
