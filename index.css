@@ -879,7 +879,7 @@ header a{
     }
     #slide{
         height: 400px;
-        max-height: 50vh;
+        max-height: 65vh;
     }
     #slide .dots .dot_item{
         width: 10px;
